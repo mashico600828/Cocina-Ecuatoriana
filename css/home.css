@@ -1,0 +1,103 @@
+* { margin:0px;
+   padding:0px;
+}
+
+
+.logo-img{
+  width: 30%;
+}
+
+img{
+ 
+}
+
+.slogan { 
+   text-align:right;
+}
+
+.titulo { 
+   text-align:left;
+   font-weight:bold;
+}
+
+.vertical menu { 
+   text-align:left;
+   color:rgb(0,0,0);
+}
+
+.custom-list-class { 
+   list-style:none;
+   text-align:left;
+}
+
+.comentario {
+	text-align:left;
+}
+
+.button { margin-right:0px;
+
+}
+
+.buscar {
+   border-radius: 10px;
+}
+
+.publicacion { font-family:"Times New Roman", Times, serif;
+font-weight:2rem;
+color:rgb(255,0,204);
+
+}
+.btn-holder
+{
+   float: right;
+   margin-top:0px;
+   bottom:0;
+}
+
+.button
+{
+   float: right;
+}
+
+.contenido {
+   background-color: #ABC;
+   margin-left:170px;
+   margin-right:170px;
+   filter: alpha(opacity=100);
+   opacity: 1;   
+}
+
+
+body {
+   background-size: cover;
+   overflow-x: hidden;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-image: url("../img/cocina-ecuatoriana.jpg");
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+   .rotulo { display:none;
+   }
+
+   .izquierdo { display:none;
+   }
+   body {
+      background-image: url("");	  
+      background-color:rgb(0,0,0); 
+   }   
+}
+ 
+@media all and (max-width: 480px) {
+   .rotulo { display:none;
+   }
+
+   .izquierdo { display:none; 
+   }
+
+   body {
+      background-image: url("");	  
+      background-color:rgb(0,0,0); 
+   }   
+}
+
